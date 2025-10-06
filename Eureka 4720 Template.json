@@ -1,0 +1,82 @@
+{
+  "server": {
+    "name": "Eureka 4720 | Global Nexus",
+    "language_roles": ["🇫🇷 Français", "🇵🇹 Português", "🇬🇧 English"],
+    "functional_roles": ["👑 Administrator", "🛠 Moderator", "🎮 Gamer", "💬 Membre", "🤖 Bot", "🎵 DJ", "🧠 IA", "💎 VIP"],
+    "categories": [
+      {
+        "name": "🏠 Accueil │ Entrance",
+        "channels": [
+          {"type": "text", "name": "📜 rules│regras│règlement", "read_only": true},
+          {"type": "text", "name": "✅ validation│verificação│validation"},
+          {"type": "text", "name": "🆕 news│notícias│actualités", "read_only": true},
+          {"type": "text", "name": "📢 annonces│anúncios│announcements", "read_only": true}
+        ]
+      },
+      {
+        "name": "💬 Communauté │ Community",
+        "channels": [
+          {"type": "text", "name": "💭 général│geral│general"},
+          {"type": "text", "name": "📸 média│mídia│media"},
+          {"type": "text", "name": "🎨 créations│criações│creations"},
+          {"type": "voice", "name": "🔊 discussion vocale│voz│voice-chat"}
+        ]
+      },
+      {
+        "name": "⚽ Gaming │ FIFA",
+        "channels": [
+          {"type": "text", "name": "⚽ fifa-chat│batepapo│fifa-discussion"},
+          {"type": "voice", "name": "🎮 fifa-room-1"},
+          {"type": "voice", "name": "🎮 fifa-room-2"},
+          {"type": "text", "name": "🏆 tournois-fifa│torneios│fifa-tournaments"}
+        ]
+      },
+      {
+        "name": "🎯 Gaming │ Call of Duty",
+        "channels": [
+          {"type": "text", "name": "🎯 cod-chat│batepapo│cod-discussion"},
+          {"type": "voice", "name": "🔊 cod-room-1"},
+          {"type": "voice", "name": "🔊 cod-room-2"},
+          {"type": "text", "name": "🏆 tournois-cod│torneios│cod-tournaments"}
+        ]
+      },
+      {
+        "name": "🎲 Autres Jeux │ Other Games",
+        "channels": [
+          {"type": "text", "name": "🎮 gaming-hub│hub-jogos│hub-jeux"},
+          {"type": "voice", "name": "🎧 autres-jeux│outros-jogos│other-games"}
+        ]
+      },
+      {
+        "name": "📈 Progression │ XP System",
+        "channels": [
+          {"type": "text", "name": "📊 classement│ranking│leaderboard", "read_only": true},
+          {"type": "text", "name": "💡 progression│progresso│progression"}
+        ]
+      },
+      {
+        "name": "🎵 Musique │ Music",
+        "channels": [
+          {"type": "text", "name": "🎵 commandes-musique│comandos│music-commands"},
+          {"type": "voice", "name": "🎧 music-room│sala-musica│music-room"}
+        ]
+      },
+      {
+        "name": "⚙️ Technique │ Logs",
+        "channels": [
+          {"type": "text", "name": "🧩 logs│moderação│modération", "private": true},
+          {"type": "text", "name": "🛠 staff│equipe│staff", "private": true},
+          {"type": "text", "name": "🎫 support-ticket│ajuda│aide"}
+        ]
+      },
+      {
+        "name": "🚨 Discipline │ Sanctions",
+        "channels": [
+          {"type": "text", "name": "🟨 avertissements│avisos│warnings", "read_only": true},
+          {"type": "text", "name": "🟥 expulsions│expulsões│bans", "read_only": true},
+          {"type": "voice", "name": "⛓ isolement│isolamento│isolation", "private": true}
+        ]
+      }
+    ]
+  }
+}
